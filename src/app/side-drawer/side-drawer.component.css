@@ -1,0 +1,39 @@
+.sideDrawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.link-items {
+  visibility: visible;
+  width: 300px;
+  height: inherit;
+  background-color: #161433f3;
+}
+
+.link-items ul {
+  position: fixed;
+  width: auto;
+  height: inherit;
+  list-style-type: none;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 3;
+}
+
+.backdrop {
+  position: inherit;
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 100%;
+  height: inherit;
+  z-index: 2;
+}
